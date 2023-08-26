@@ -167,7 +167,7 @@ main {
     position: absolute;
     width: 194.44%;
     top: 23%;
-    left: 16%;
+    left: 20%;
     z-index: 7;
     text-transform: uppercase;
     pointer-events: auto;
@@ -179,7 +179,18 @@ main {
     font-size: 10rem;
     line-height: 0.88;
     text-shadow: 6px 4px #000000;
+   animation: glow 1.5s ease-in-out infinite alternate;
 }
+
+@keyframes glow {
+  from {
+    text-shadow: 6px 4px #000000, 0 0 10px rgba(255, 0, 38, 0.8), 0 0 20px rgba(255, 0, 38, 0.8);
+  }
+  to {
+    text-shadow: 6px 4px #000000, 0 0 20px rgba(255, 0, 38, 0.8), 0 0 30px rgba(255, 0, 38, 0.8);
+  }
+}
+
 
 
 .Fronttree {
