@@ -25,7 +25,7 @@ parallax_el.forEach((el) => {
  let timeline = gsap.timeline();
 
  timeline.from(".text h2", {
-    y: -150,
+    y: -450,
     opacity: 0,
     duration: 1,
  },
@@ -35,4 +35,52 @@ parallax_el.forEach((el) => {
     opacity: 0,
     duration: 1.5,
  },
- "0.6");
+ "0.6")
+   .from(".bg", {
+    y: 100,
+    opacity: 0,
+    duration: 0.5,
+ },
+ "0.3")
+     .from(".Sun", {
+    y: 150,
+    opacity: 0,
+    duration: 0.6,
+ },
+ "0.3")
+     .from(".cloud", {
+    y: 200,
+    opacity: 0,
+    duration: 0.7,
+ },
+ "0.3")
+     .from(".Buildings", {
+    y: 250,
+    opacity: 0,
+    duration: 0.8,
+ },
+ "0.3")
+  .from(".University", {
+    y: 300,
+    opacity: 0,
+    duration: 0.9,
+ },
+ "0.3")
+  .from(".Backtree", {
+    y: 350,
+    opacity: 0,
+    duration: 0.9,
+ },
+ "0.3")
+  .from(".Fronttree", {
+    y: 400,
+    opacity: 0,
+    duration: 0.9,
+ },
+ "0.3")
+  .from(".Students", {
+    y: 450,
+    opacity: 0,
+    duration: 1,
+ },
+ "0.3");
