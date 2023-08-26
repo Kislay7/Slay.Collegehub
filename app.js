@@ -4,7 +4,7 @@ const main = document.querySelector("main");
 // Calculate the intensity of the parallax effect based on screen width
 const getParallaxIntensity = () => {
    const screenWidth = window.innerWidth;
-   return screenWidth < 725 ? 1.2 : 1; // Adjust the value as needed
+   return screenWidth < 725 ? 1.7 : 1; // Adjust the value as needed
  };
  
  // Handle both mousemove and touchmove events
