@@ -118,7 +118,7 @@ main {
     position: absolute;
     width: 100.69%;
     top: calc(-5%);
-    left: calc(4%);
+    left: calc(-1%);
     z-index: 1;
 }
 
@@ -150,7 +150,7 @@ main {
     position: absolute;
     width: 111.11%;
     top: calc(-12% );
-    left: calc(-4%);
+    left: calc(-8%);
     z-index: 5;
 }
 
@@ -159,15 +159,15 @@ main {
     z-index: 6;
     width: 97.22%;
     top: calc(-4% );
-    left: calc(1%);
+    left: calc(-1%);
 }
 
 
 .text {
     position: absolute;
     width: 194.44%;
-    top: 23%;
-    left: 20%;
+    top: 29%;
+    left: 17.5%;
     z-index: 7;
     text-transform: uppercase;
     pointer-events: auto;
@@ -197,7 +197,7 @@ main {
     position: absolute;
     width: 104.16%;
     top: calc(-19% );
-    left: calc(0%);
+    left: calc(-2rem);
     z-index: 8;
 }
 
@@ -205,7 +205,7 @@ main {
     position: absolute;
     width: 104.16%;
     top: calc(10% );
-    left: calc(2% );
+    left: calc(0% );
     z-index: 9;
 }
 
@@ -261,27 +261,27 @@ background: radial-gradient(ellipse at center, rgba(0,0,0,0)75%, rgba(0,0,0,0.7)
         width: 30px;
     }
     .bg{
-        width: 120%;
-        height: 60%;
-        top: calc(18% );
-        left: calc(-10%);
+        width: 100%;
+        height: 50%;
+        top: calc(21% );
+        left: calc(0%);
     }
     .Sun{
         width: 45%;
         height: 25%;
-        top: calc(16% );
+        top: calc(18% );
         left: calc(39%); 
     }
     .cloud{
         width: 100%;
         height: 55%;
-        top: calc(18% );
+        top: calc(20% );
         left: calc(0%); 
     }
     .Buildings{
         width: 150%;
-        height: 125%;
-        top: calc(-10% );
+        height: 80%;
+        top: calc(18% );
         left: calc(-32%); 
     }
     .University{
@@ -305,11 +305,11 @@ background: radial-gradient(ellipse at center, rgba(0,0,0,0)75%, rgba(0,0,0,0.7)
     .Students {
         width: 100%;
         height: 50%;
-        top: calc(60% );
+        top: calc(59% );
         left: 1%;
     }
     .text {
-        top: 55%;
-        left: 12%;
+        top: 59%;
+        left: 14%;
     }
   }
